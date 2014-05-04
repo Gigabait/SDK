@@ -18,8 +18,6 @@ end
 function GM:PlayerSpawn(ply)
 	ply:SetModel("models/player/group02/male_02.mdl")
 
-	ply:EmitSound("sdk/UI/spawn.wav",75,100)
-
 	ply:Give("weapon_physcannon")
 	ply:Give("weapon_crowbar")
 	ply:Give("weapon_pistol")
